@@ -1,0 +1,111 @@
+
+body{
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #EBEEFF;
+    font-size: 32px;
+}
+p,a,h1{
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 134px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #7B7171;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header{
+    position: relative;
+    padding-top: 29px;
+}
+
+.header::after{
+    content: '';
+    display: block;
+    background: url(../img/fon.jpg) no-repeat right center / cover;
+    width: 40%;
+    height: 100%;
+    border-radius: 0px 175px 175px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 61%;
+    align-items: center;
+}
+
+.logo{
+margin-left: -40px;
+}
+
+.sale{
+    color: #665353;
+    text-decoration-line: underline;
+}
+
+.offer{
+    margin-top: 10%;
+    position: relative;
+    z-index: 12;
+    
+}
+
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #0047FF;
+	color: #fff;
+	display: block;
+    width: 446px;
+    border-radius: 35px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+    font-size: 48px;
+}
+
+.offer-text{
+    width: 440px;
+    margin-top: 30px;
+}
+
+.promo{
+    position: absolute;
+    background: #EBEEFF;
+    border-radius:50%;
+    width: 560px;
+    height: 560px;
+    top: 45%;
+    margin-top: -156px;
+    z-index: 9;
+    margin-left: 560px;
+}
+
+.promo img{
+    position: absolute;
+    display: block;
+    margin-top: 40px;
+    margin-left: 105px;
+}
