@@ -65,7 +65,7 @@ margin-left: -40px;
 }
 
 .offer{
-    margin-top: 10%;
+
     position: relative;
     z-index: 12;
     
@@ -95,17 +95,18 @@ margin-left: -40px;
     position: absolute;
     background: #EBEEFF;
     border-radius:50%;
-    width: 560px;
-    height: 560px;
+    width: 500px;
+    height: 500px;
     top: 45%;
     margin-top: -156px;
     z-index: 9;
-    margin-left: 560px;
+    margin-left: 33%;
 }
 
 .promo img{
+    width: 60%;
     position: absolute;
     display: block;
     margin-top: 40px;
-    margin-left: 105px;
+    margin-left: 20%;
 }
